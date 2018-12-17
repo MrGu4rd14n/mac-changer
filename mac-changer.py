@@ -34,7 +34,7 @@ def get_current_mac(interface):
         print("Not able to get the current MAC address on this interface")
         quit()
 
-#Set the return value options of get_argument like the interface name and mac addres
+#Set the return value of get_arguments function to the variable options
 options = get_arguments()
 #Launch the function to get the current mac address ifconfig options.interface (eth0)
 old_current_mac = get_current_mac(options.interface)
